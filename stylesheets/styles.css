@@ -1,0 +1,12 @@
+body{
+	background-image: url("../images/texture.jpg");
+	background-size: 100%;
+}
+
+
+h1{
+	text-align: center;
+	color: #FFF;
+	font-size : 50px;
+	/* border-bottom: 2px solid #EEE; */
+}
