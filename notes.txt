@@ -1,0 +1,4 @@
+Brand Colors:
+Beige: #d0c8b5
+Blue: #03bceb
+Orange: #f2911c

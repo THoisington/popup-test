@@ -1,37 +1,5 @@
-/*.list_border{
-	border-right: 1px solid rgb(207, 198, 198);
-}
-
-a:hover{
-	color: yellow;
-	text-decoration: none;
-}
-
-
-.temp_height{
-	height: 300px;
-}
-
-.temp_height2{
-	height: 100px;
-}
-
-.temp_height3{
-	height: 50px;
-}
-
-.temp_height4{
-	height: 125px;
-}
-
-.temp_height5{
-	height: 200px;
-	background-color: black;*/
-/*}*/
-
 body{
-	background-image: url("../images/binding_dark2.png");
-	background-repeat: repeat;
+	background-color: #d0c8b5;
 }
 
 
@@ -42,8 +10,35 @@ h1{
 	/* border-bottom: 2px solid #EEE; */
 }
 
-.temp{
+.resp_margin{
 	margin: 0 auto;
+}
+
+.logo{
+    margin-top: 40px;
+    height: 400px;
+    width: 600px;
+}
+
+ul.navbar{
+	margin-left: 160px;
+
+}
+
+ul.navbar li{
+	display: inline;
+	padding-left: 15px;
+}
+
+
+a{
+	color: #03bceb;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #f2911c;
+	text-decoration: none;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
