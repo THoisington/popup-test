@@ -28,6 +28,11 @@ p.page_description{
     padding: 0px 10px;
 }
 
+h2{
+    font-family: "LatoItalic","Arial Black","Arial Bold",sans-serif;
+    text-align: right;
+}
+
 /****************************
 	Home Page
 *****************************/
@@ -55,21 +60,60 @@ div.top_wrapper{
 }
 
 div.slideshow_wrapper{
-	display: inline-block;
-	margin-top: 101px;
+	/*display: inline-block;*/
+	margin-top: 50px;
 	margin-left: 87px;
 }
 
-div.slideshow{
-    height: 160px;
-	background-color: #03bceb;
-    width: 525px;
-    border: 2px solid #f2911c;
+.slider {
+  max-width: 940px;  
+  margin: 0px auto 30px auto;}
+
+.slide-viewer{
+	position: relative;
+	overflow: hidden;
+	height: 300px;
 }
 
-h2{
-    font-family: "LatoItalic","Arial Black","Arial Bold",sans-serif;
-    text-align: right;
+.slide-group{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.slide:first-child {
+	display: block;
+}
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;
+  width: 800px;
+}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
+#shows{
+	text-align: center;
+	width: 800px;
+	display: inline-block;
+	margin-left: 129px;
 }
 
 /****************************
