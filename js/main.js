@@ -42,13 +42,13 @@ $('.slider').each(function() {              // For every slider
 
   function advance() {                     // Used to set 
     clearTimeout(timeout);                 // Clear previous timeout
-    timeout = setTimeout(function() {      // Set new timer
-      if (currentIndex < ($slides.length - 1)) { // If slide < total slides
-        move(currentIndex + 1);            // Move to next slide
-      } else {                             // Otherwise
-        move(0);                           // Move to the first slide
-      }
-    }, 8000);                              // Milliseconds timer will wait
+    // timeout = setTimeout(function() {      // Set new timer
+      // if (currentIndex < ($slides.length - 1)) { // If slide < total slides
+        // move(currentIndex + 1);            // Move to next slide
+      // } else {                             // Otherwise
+        // move(0);                           // Move to the first slide
+      // }
+    // }, 8000);                              // Milliseconds timer will wait
   }
 
   $.each($slides, function(index) {
@@ -67,3 +67,5 @@ $('.slider').each(function() {              // For every slider
 
 
 });
+
+//Add function to replace overlay content, both when timer runs out and when clicked
